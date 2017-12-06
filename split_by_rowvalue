@@ -1,0 +1,8 @@
+#Rename headers in original file#
+
+#Retain headers from original file#
+
+head -n 1 inputfile.csv > outputfile.csv
+
+#Split file by specific value - Group Name#
+grep "Group Name" inputfile.csv >> outputfile.csv
